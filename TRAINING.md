@@ -117,3 +117,9 @@ python imagenet.py -a resnet18 --data ~/dataset/ILSVRC2012/ --epochs 90 --schedu
 ```
 python imagenet.py -a resnext50 --base-width 4 --cardinality 32 --data ~/dataset/ILSVRC2012/ --epochs 90 --schedule 31 61 --gamma 0.1 -c checkpoints/imagenet/resnext50-32x4d
 ```
+
+## Roof material
+### ResNet-18
+```
+python roof_material.py -d Roof_material -a resnet18 --checkpoint checkpoints/Roof_material/resnet
+```
